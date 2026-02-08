@@ -1,10 +1,10 @@
-package com.example.example19;
+package com.springschool.auth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringWebSchoolApplication {
+class AuthServiceApplication {
 
 	@Test
 	void contextLoads() {

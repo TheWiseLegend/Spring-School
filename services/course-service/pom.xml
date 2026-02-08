@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.springschool</groupId>
-    <artifactId>auth-service</artifactId>
+    <artifactId>course-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Auth Service</name>
-    <description>Authentication and Authorization Service for Spring School</description>
+    <name>Course Service</name>
+    <description>Course Catalog and Enrollment Service</description>
 
     <properties>
         <java.version>21</java.version>
@@ -49,6 +49,12 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
+        </dependency>
+
+        <!-- Kafka -->
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
         </dependency>
 
         <!-- JWT -->
