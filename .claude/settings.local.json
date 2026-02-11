@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"c:\\\\Users\\\\Dell\\\\Desktop\\\\Spring-School\" log --oneline --all)",
+      "Bash(git -C \"c:\\\\Users\\\\Dell\\\\Desktop\\\\Spring-School\" show --stat 1758a70)",
+      "Bash(git -C \"c:\\\\Users\\\\Dell\\\\Desktop\\\\Spring-School\" show 1758a70 --name-only)",
+      "Bash(git -C \"c:\\\\Users\\\\Dell\\\\Desktop\\\\Spring-School\" branch -a)",
+      "Bash(git -C \"c:\\\\Users\\\\Dell\\\\Desktop\\\\Spring-School\" log --all --oneline -- \"*.html\")",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(timeout 15 npm run dev:*)"
+    ]
+  }
+}

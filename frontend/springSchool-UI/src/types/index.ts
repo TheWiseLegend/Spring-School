@@ -1,12 +1,17 @@
 // Type definitions for the application
 
+// Re-export all types from models and api
+export * from './models';
+export * from './api';
+
+// UI Component Types (for Home page sections)
 export interface Testimonial {
     name: string;
     quote: string;
     avatar: string;
 }
 
-export interface Course {
+export interface CourseCard {
     title: string;
     description: string;
     lessons: number;

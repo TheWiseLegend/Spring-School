@@ -12,3 +12,5 @@ export {
     NEWSLETTER_TEXT,
 } from "./footer";
 export { WHY_CHOOSE_ITEMS, WHY_CHOOSE_HEADER } from "./whyChoose";
+export { TEACHERS } from "./team";
+export { FESTIVAL_HOLIDAYS, FEDERAL_HOLIDAYS } from "./holidays";

@@ -4,7 +4,8 @@ import {
     EXPLORE_LINKS,
     FOOTER_COPYRIGHT,
     NEWSLETTER_TEXT,
-} from "../constants";
+} from "../../constants";
+import { FooterLink } from "../../types";
 
 const Footer: React.FC = () => {
     return (
@@ -43,7 +44,7 @@ const Footer: React.FC = () => {
                     <div>
                         <h3 className="text-xl font-bold mb-6">Quick Links</h3>
                         <ul className="space-y-3">
-                            {QUICK_LINKS.map((link, index) => (
+                            {QUICK_LINKS.map((link: FooterLink, index: number) => (
                                 <li key={index}>
                                     <a
                                         href={link.href}
@@ -60,7 +61,7 @@ const Footer: React.FC = () => {
                     <div>
                         <h3 className="text-xl font-bold mb-6">Explore</h3>
                         <ul className="space-y-3">
-                            {EXPLORE_LINKS.map((link, index) => (
+                            {EXPLORE_LINKS.map((link: FooterLink, index: number) => (
                                 <li key={index}>
                                     <a
                                         href={link.href}
